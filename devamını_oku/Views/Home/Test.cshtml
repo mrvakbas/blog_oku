@@ -1,0 +1,16 @@
+﻿@using devamını_oku.Models
+@model List<Blogs>
+@{
+    ViewBag.Title = "Test";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bloglar</h2>
+<br />
+@foreach (var x in Model)
+{
+    <p>@x.BlogTitle</p> 
+    <p>@x.BlogContent.Substring(0,x.BlogContent.Substring(0,100).LastIndexOf(" "))...</p>
+    <a href="/Home/Details/@x.BlogID">Devamını Oku... <i class="fa-solid fa-arrow-right"></i></a>
+    <br /><br /><br />
+}

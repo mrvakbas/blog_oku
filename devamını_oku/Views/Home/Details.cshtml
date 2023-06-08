@@ -1,0 +1,18 @@
+﻿@using devamını_oku.Models
+@model List<Blogs>
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bloglar</h2>
+<hr />
+@foreach (var x in Model)
+{
+    <p>@x.BlogTitle</p>
+    <img src="@x.BlogImage"/>
+    <br /> <br />
+    <p>@x.BlogContent</p>
+    <a href="/Home/Test/"><i class="fa-solid fa-arrow-left"></i> Bloglara Dön</a>
+    <br />
+}

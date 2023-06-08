@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "devamını_oku", "devamını_oku\devamını_oku.csproj", "{F3377659-7B51-4D13-9EAC-D071375FE72E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3377659-7B51-4D13-9EAC-D071375FE72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3377659-7B51-4D13-9EAC-D071375FE72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3377659-7B51-4D13-9EAC-D071375FE72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3377659-7B51-4D13-9EAC-D071375FE72E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CA30937-2FA9-4D60-9490-F0953CD827FC}
+	EndGlobalSection
+EndGlobal
